@@ -40,12 +40,12 @@ de sequelize con la base de datos. Aquí lo que debemos hacer es cambiar los par
 {DB_USER} y {DB_PASSWORD} para que nuestro back-end se pueda conectar a la misma. En la 
 siguiente imagen se muestra como fue creada la base de datos. 
 
-<img  src="../Images/CreateDB.png" />
+<img  src="./Images/CreateDB.png" />
 
 Una vez realizado esto, ejecutamos npm start tanto en el back-end como en el front-end y
 esto nos va a correr la aplicación en el puerto 3000 de localhost. 
 
-<img  src="../Images/Landing.png" />
+<img  src="./Images/Landing.png" />
 
 
 A continuación se muestra algunas capturas de pantalla de la aplicacion en funcionamiento:
@@ -53,24 +53,24 @@ A continuación se muestra algunas capturas de pantalla de la aplicacion en func
 - En primera instancia podemos ver como se crearon dos carpetas. La primera con el nombre
 "Work" y la segunda con el nombre "Sports".
 
-<img src="../Images/Folders.png" />
+<img src="./Images/Folders.png" />
 
 - Luego, al hacer click en "view items", podemos visualizar las tareas correspondiente a
 dicha carpeta. Para este caso se crearon dos tareas. Podemos ver como se puede marcar como
 "realizada" o sin realizar a partir del checkbox.  
 
-<img  src="../Images/Tasks.png" />
+<img  src="./Images/Tasks.png" />
 
 Por último podemos editar una tarea creada, como se puede ver en la siguientes imagenes.
 En la primera vemos como se edita la tarea "Write to candidates". Y en la segunda imagen 
 vemos como se actualizó la tarea dentro de la carpeta "Work".
 
-<img src="../Images/Edit.png" />
+<img src="./Images/Edit.png" />
 
-<img src="../Images/Tasks2.png" />
+<img src="./Images/Tasks2.png" />
 
 
 Se diseñó la version mobile como se puede ver en la siguiente imagen. Se tomo como celulares
 de prueba un iphone 6/7/8 Plus.
 
-<img src="../Images/Mobile.png" />
+<img src="./Images/Mobile.png" />
