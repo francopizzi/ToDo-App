@@ -5,19 +5,24 @@ almacenar en carpetas para separarlas por tipo. Ademas, podemos seleccionar si l
 fue realizada o editar el nombre de la misma. Por ultimo, podemos eliminar una carpeta y al
 realizar esto se nos van a eliminar todas las tareas que la coponian.
 
-Para realizar esta aplicación, utilice distintas tecnologias: 
+Para realizar esta aplicación, utilice distintas tecnologias:
+ 
 Para el front-end: 
+
 - React ^17.0.1
 - Redux ^4.1.2
 - CSS
 - HTML
+
 Para el back-end:
+
 -Node js >=12.18.3
 -Express ^4.17.1
 -PostgreSQL v14.1
 -Sequelize ^6.3.5
 
 Para instalar las dependencias y poder correr la aplicacion. 
+
 - "npm": ">=6.14.6"
 
 Para poder correr esta aplicacion es necesario instalar las dependencias tanto en el back-end
@@ -34,4 +39,4 @@ de sequelize con la base de datos. Aqui lo que debemos hacer es cambiar los para
 Una vez realizado esto, ejecutamos npm start tanto en el back-end como en el front-end y
 esto nos va a correr la aplicacion en el puerto 3000 de localhost. 
 
-
+<img height="200" src="./Landing.png" />
