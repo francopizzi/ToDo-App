@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+.input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color:black;
+    
+    background-color: white;
+    width: 16em;
+    height: 1.7rem;
+    border-color: transparent;
+    border-radius: 1rem;
+
+    margin-left: 1rem;
+}
+
+.input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    color:black;
+    padding-left: 10px;
+  }
+
+
+.btn {
+    background-color: #70e000;
+    width:25%;
+    height: 1.7rem;
+    border-color: transparent;
+    border-radius: 1rem;
+
+    margin-left: 1%;
+
+    font-family: 'Bangers', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #bc00dd;
+    cursor: pointer;
+}
