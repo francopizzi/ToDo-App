@@ -30,7 +30,7 @@ function Todo({content , status, id}) {
 
   return (
     <div className={style.div}>
-      <input checked={check} className={style.check} type="checkbox" name={id} onChange={handlerStatus}/>
+      <input  className={style.check} type="checkbox" name={id} onChange={handlerStatus}/>
       <h1 className={style.title}>{content}</h1>
       <button className={style.btn} name="edit" value={id} onClick={handlerEdit}>Edit</button>
     </div>
